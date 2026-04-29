@@ -45,12 +45,15 @@
 Ниже представлены скриншоты каждой таблицы, содержащей по 30 записей, полученные с помощью запроса `SELECT * FROM название_таблицы`.
 
 ### Таблица работников
-![Таблица работников](Photo/workers_table.png)
+<img width="1899" height="1087" alt="image" src="https://github.com/user-attachments/assets/cc7ef884-100f-43e2-8fa4-dd0e3609ce80" />
+
 
 ### Таблица локомотивов
-![Таблица локомотивов](Photo/locomotives_table.png)
+<img width="1900" height="1088" alt="image" src="https://github.com/user-attachments/assets/31793aa4-6ed3-4931-a13f-5e3551e5c17d" />
+
 
 ### Таблица депо приписки
-![Таблица депо](Photo/delivery_depot_table.png)
+<img width="1899" height="1084" alt="image" src="https://github.com/user-attachments/assets/3866abb9-5a48-4d5b-8f1a-f1ed9f4a02fb" />
+
 ## Связи между таблицами
 delivery_depot ──< borrowings >── locomotives
