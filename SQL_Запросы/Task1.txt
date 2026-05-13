@@ -1,0 +1,20 @@
+--SELECT * FROM workers
+--SELECT * FROM delivery_depot
+--SELECT * FROM locomotives
+--SELECT name FROM workers
+--SELECT post FROM workers
+--SELECT series FROM locomotives WHERE type = 'Пассажирский электровоз'
+--SELECT depot_name FROM delivery_depot WHERE city = 'Санкт-Петербург'
+--SELECT name FROM workers WHERE work_experience = 11
+--SELECT series FROM locomotives WHERE power_kw = 1400
+--SELECT type FROM locomotives WHERE series = '3ЭС5К'
+--SELECT type FROM locomotives WHERE nubmer = 843
+--SELECT * FROM locomotives WHERE type = 'Магистральный грузовой электровоз'
+--SELECT * FROM locomotuves WHERE current_type = 'Переменный'
+--SELECT * FROM locomotives WHERE series = 'ЭП1М'
+--SELECT * FROM workers WHERE work_experience = 8
+--SELECT * FROM workers WHERE name = 'Борисов Сергей Николаевич'
+--SELECT * FROM delivery_depot WHERE city = 'Ржев'
+--SELECT * FROM locomotives WHERE series = 'ЭП20'
+--SELECT * FROM delivery_depot WHERE region = 'Северо-Западный'
+--SELECT * FROM workers WHERE work_experience = 13
