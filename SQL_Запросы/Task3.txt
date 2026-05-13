@@ -1,0 +1,20 @@
+--SELECT series FROM locomotives WHERE power_kw IN (1400, 9180)
+--SELECT series FROM locomotives WHERE construction_speed IN (110, 140)
+--SELECT type FROM locomotives WHERE series IN ('3ЭС5К')
+--SELECT number FROM locomotives WHERE construction_speed IN (110)
+--SELECT post FROM workers WHERE salary IN (158000)
+--SELECT depot_name FROM delivery_depot WHERE city IN ('Санкт-Петербург')
+--SELECT city FROM delivery_depot WHERE region IN ('Северо-Западный')
+--SELECT current_type FROM locomotives WHERE series BETWEEN 'НПМ2М' and 'ЭП1М'
+--SELECT series FROM locomotives WHERE power_kw BETWEEN 13120 and 4700
+--SELECT type FROM locomotives WHERE series BETWEEN 'ЭП20' and 'ЭП1М'
+--SELECT name FROM workers WHERE work_experience BETWEEN 7 and 11
+--SELECT depot_name FROM delivery_depot WHERE cityn BETWEEN 'Санкт-Петербург' and 'Ржев'
+--SELECT region FROM delivery_depot WHERE railway BETWEEN 'Октябрьская ж/д'
+--SELECT construction_speed FROM locomotives WHERE series BETWEEN 'НПМ2М'
+--SELECT series FROM locomotives WHERE type = 'Магистральный грузовой электровоз' and power_kw = 9180
+--SELECT series FROM locomotives WHERE type = 'Пассажирский электровоз' and power_kw = 4700
+--SELECT series FROM locomotives WHERE type = 'Промышленный электровоз' and power_kw = 1400
+--SELECT series FROM locomotives WHERE type = 'Пассажирский электровоз' or power_kw = 7200
+--SELECT series FROM locomotives WHERE type = 'Магистральный грузовой электровоз' or power_kw = 6560
+--SELECT type FROM locomotives WHERE series = '2ЭС5К' or 'ЭП1М'
